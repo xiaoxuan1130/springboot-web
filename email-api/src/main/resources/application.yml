@@ -1,0 +1,15 @@
+server:
+  servlet:
+    context-path: /webapi
+spring:
+  profiles:
+    active: dev
+  mvc:
+      static-path-pattern: /**
+dubbo:
+  application:
+    logger: slf4j
+    name: consumer-webapi
+  consumer:
+    version: 1.0.0
+    timeout: 10000

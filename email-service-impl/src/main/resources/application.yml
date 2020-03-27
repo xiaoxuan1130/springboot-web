@@ -1,0 +1,27 @@
+spring:
+  profiles:
+    active: dev
+  freemarker:
+    cache: false
+  main:
+    allow-bean-definition-overriding: true
+    ## 不使用 web 环境
+    web-application-type: none
+
+email:
+  server: smtp.qq.com
+  sender: 1024046894@qq.com
+  username: 1024046894@qq.com
+  password: ezqtelyixxvobddd
+  nickname:
+
+dubbo:
+  application:
+    name: service-provider
+    logger: slf4j
+  scan:
+    base-packages: com.epipe
+  provider:
+    version: 1.0.0
+    timeout: 5000
+    dynamic: true

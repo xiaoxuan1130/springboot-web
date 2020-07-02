@@ -27,7 +27,7 @@
         <java.version>1.8</java.version>
         <dubbo.version>2.7.3</dubbo.version>
         <freemarker.version>2.3.23</freemarker.version>
-        <mysql.version>8.0.15</mysql.version>
+        <mysql.version>8.0.16</mysql.version>
         <tk.mybatis.springboot.version>2.1.5</tk.mybatis.springboot.version>
         <pagehelper.springboot.version>1.2.10</pagehelper.springboot.version>
         <lombok.version>1.18.6</lombok.version>
